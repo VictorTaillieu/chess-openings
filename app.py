@@ -2,10 +2,12 @@ import pandas as pd
 from dash import Dash, dash_table, dcc, html
 from dash.dependencies import Input, Output
 
+# Load data
 df = pd.read_csv("data/openings_stats.csv")
 
 app = Dash(__name__)
 
+# Define app layout
 app.layout = html.Div([
     dcc.Dropdown(
         id="open-var",
@@ -40,12 +42,14 @@ app.layout = html.Div([
 def update_table(open_var, color):
     dff = df.copy()
 
+    # Filter openings or variations
     if open_var == "open":
         dff = dff[dff.variation.isna()]
         dff.drop("variation", axis=1, inplace=True)
     else:
         dff = dff[dff.variation.notna()]
 
+    # Filter colors
     dff = dff[dff.color.isin(color)]
 
     return dff.to_dict("records")
