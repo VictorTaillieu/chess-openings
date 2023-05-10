@@ -1,0 +1,195 @@
+﻿name,color,variation,pgn
+Caro-Kann,black,,1. e4 c6
+Caro-Kann,black,Advance Variation,1. e4 c6 2. d4 d5 3. e5
+Caro-Kann,black,Exchange Variation,1. e4 c6 2. d4 d5 3. exd5
+Caro-Kann,black,Panov Attack,1. e4 c6 2. d4 d5 3. exd5 cxd5 4. c4
+Caro-Kann,black,Classical Variation,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5
+Caro-Kann,black,Fantasy Variation,1. e4 c6 2. d4 d5 3. f3
+Caro-Kann,black,Two Knights Attack,1. e4 c6 2. Nc3 d5 3. Nf3
+Caro-Kann,black,Karpov Variation,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nd7
+Caro-Kann,black,Korchnoi Variation,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ exf6
+Caro-Kann,black,Bronstein-Larsen Variation,1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Nf6 5. Nxf6+ gxf6
+Ruy Lopez,white,,1. e4 e5 2. Nf3 Nc6 3. Bb5
+Ruy Lopez,white,Berlin Defense,1. e4 e5 2. Nf3 Nc6 3. Bb5 Nf6
+Ruy Lopez,white,Exchange Variation,1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Bxc6
+Ruy Lopez,white,Marshall Attack,1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 O-O 8. c3 d5
+Ruy Lopez,white,Arkhangelsk Variation,1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O b5 6. Bb3 Bb7
+Ruy Lopez,white,Chigorin Defense,1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Na5
+Ruy Lopez,white,Breyer Defense,1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Ba4 Nf6 5. O-O Be7 6. Re1 b5 7. Bb3 d6 8. c3 O-O 9. h3 Nb8
+French Defense,black,,1. e4 e6
+French Defense,black,Exchange Variation,1. e4 e6 2. d4 d5 3. exd5
+French Defense,black,Tarrasch Variation,1. e4 e6 2. d4 d5 3. Nd2
+French Defense,black,Winawer Variation,1. e4 e6 2. d4 d5 3. Nc3 Bb4
+French Defense,black,Rubinstein Variation,1. e4 e6 2. d4 d5 3. Nc3 dxe4
+French Defense,black,Steinitz Variation,1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. e5
+French Defense,black,Advance Variation,1. e4 e6 2. d4 d5 3. e5
+French Defense,black,Burn Variation,1. e4 e6 2. d4 d5 3. Nc3 Nf6 4. Bg5
+Sicilian Defense,black,,1. e4 c5
+Sicilian Defense,black,Accelerated Dragon,1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 g6
+Sicilian Defense,black,Prins Variation,1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. f3
+Sicilian Defense,black,Alapin Variation,1. e4 c5 2. c3
+Sicilian Defense,black,Grand Prix Attack,1. e4 c5 2. Nc3 Nc6 3. f4
+Sicilian Defense,black,Najdorf Variation,1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6
+Sicilian Defense,black,Kan Variation,1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 a6
+Sicilian Defense,black,Kramnik Variation,1. e4 c5 2. Nf3 e6 3. c4
+Sicilian Defense,black,Smith-Morra Gambit,1. e4 c5 2. d4
+Sicilian Defense,black,Taimanov Variation,1. e4 c5 2. Nf3 e6 3. d4 cxd4 4. Nxd4 Nc6
+Sicilian Defense,black,Rossolimo Attack,1. e4 c5 2. Nf3 Nc6 3. Bb5
+Sicilian Defense,black,Dragon Variation,1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 g6
+Sicilian Defense,black,Scheveningen Variation,1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e6
+Sicilian Defense,black,Nimzowitsch Variation,1. e4 c5 2. Nf3 Nf6
+Sicilian Defense,black,Kalashnikov Variation,1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 e5 5. Nb5 d6
+Sicilian Defense,black,O'Kelly Variation,1. e4 c5 2. Nf3 a6
+Sicilian Defense,black,Hyperaccelerated Dragon,1. e4 c5 2. Nf3 g6
+Sicilian Defense,black,Sveshnikov Variation,1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 e5
+Sicilian Defense,black,Richter-Rauzer Variation,1. e4 c5 2. Nf3 Nc6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 d6 6. Bg5
+Sicilian Defense,black,Moscow Variation,1. e4 c5 2. Nf3 d6 3. Bb5+
+Italian Game,white,,1. e4 e5 2. Nf3 Nc6 3. Bc4
+Italian Game,white,Evans Gambit,1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. b4
+Italian Game,white,Knight Attack,1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5
+Italian Game,white,Deutz Gambit,1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. O-O Nf6 5. d4
+Italian Game,white,Fried Liver Attack,1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 d5 5. exd5 Nxd5 6. Nxf7
+Italian Game,white,Traxler Counterattack,1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. Ng5 Bc5
+Italian Game,white,Modern Bishop's Opening,1. e4 e5 2. Nf3 Nc6 3. Bc4 Nf6 4. d3
+Italian Game,white,Hungarian Defense,1. e4 e5 2. Nf3 Nc6 3. Bc4 Be7
+Italian Game,white,Classical Variation,1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3
+King's Gambit,white,,1. e4 e5 2. f4
+King's Gambit,white,Fischer Defense,1. e4 e5 2. f4 exf4 3. Nf3 d6
+King's Gambit,white,Modern Defense,1. e4 e5 2. f4 exf4 3. Nf3 d5
+King's Gambit,white,Kieseritzky Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. h4 g4 5. Ne5
+King's Gambit,white,Muzio Gambit,1. e4 e5 2. f4 exf4 3. Nf3 g5 4. Bc4 g4 5. O-O
+King's Gambit,white,Bishop's Gambit,1. e4 e5 2. f4 exf4 3. Bc4
+King's Gambit,white,Falkbeer Countergambit,1. e4 e5 2. f4 d5
+King's Gambit,white,Classical Variation,1. e4 e5 2. f4 Bc5
+Pirc Defense,black,,1. e4 d6
+Pirc Defense,black,Austrian Attack,1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. f4
+Pirc Defense,black,Classical Variation,1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Nf3
+Pirc Defense,black,150 Attack,1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 c6 5. Qd2
+Pirc Defense,black,Byrne Variation,1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bg5
+Pirc Defense,black,Sveshnikov System,1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. g3
+Pirc Defense,black,Kholmov System,1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Bc4
+Modern Defense,black,,1. e4 g6
+Modern Defense,black,Three Pawns Attack,1. e4 g6 2. d4 Bg7 3. f4
+Modern Defense,black,Bishop Attack,1. e4 g6 2. d4 Bg7 3. Bc4
+Modern Defense,black,Averbakh System,1. e4 g6 2. d4 Bg7 3. c4 d6 4. Nc3
+Modern Defense,black,Standard Line,1. e4 g6 2. d4 Bg7 3. Nc3
+Alekhine Defense,black,,1. e4 Nf6
+Alekhine Defense,black,Two Pawns Attack,1. e4 Nf6 2. e5 Nd5 3. c4
+Alekhine Defense,black,Four Pawns Attack,1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. f4
+Alekhine Defense,black,Balogh Variation,1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Bc4
+Alekhine Defense,black,Exchange Variation,1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. c4 Nb6 5. exd6
+Alekhine Defense,black,Modern Variation,1. e4 Nf6 2. e5 Nd5 3. d4 d6 4. Nf3
+Scandinavian Defense,black,,1. e4 d5
+Scandinavian Defense,black,Main Line,1. e4 d5 2. exd5 Qxd5 3. Nc3 Qa5
+Scandinavian Defense,black,Valencian Variation,1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd8
+Scandinavian Defense,black,Gubinsky-Melts Defense,1. e4 d5 2. exd5 Qxd5 3. Nc3 Qd6
+Scandinavian Defense,black,Modern Variation,1. e4 d5 2. exd5 Nf6
+Petrov Defense,black,,1. e4 e5 2. Nf3 Nf6
+Petrov Defense,black,Classical Attack,1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. d4
+Petrov Defense,black,Nimzowitsch Attack,1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Nc3
+Petrov Defense,black,Cozio Attack,1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nf3 Nxe4 5. Qe2
+Petrov Defense,black,Cochrane Gambit,1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nxf7
+Petrov Defense,black,Karklins-Martinovsky Variation,1. e4 e5 2. Nf3 Nf6 3. Nxe5 d6 4. Nd3
+Petrov Defense,black,Modern Attack,1. e4 e5 2. Nf3 Nf6 3. d4
+Petrov Defense,black,Three Knights Game,1. e4 e5 2. Nf3 Nf6 3. Nc3
+Scotch Game,white,,1. e4 e5 2. Nf3 Nc6 3. d4
+Scotch Game,white,Scotch Gambit,1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Bc4
+Scotch Game,white,Göring Gambit,1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. c3
+Scotch Game,white,Steinitz Variation,1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Qh4
+Scotch Game,white,Classical Variation,1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Bc5
+Scotch Game,white,Schmidt Variation,1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Nf6
+Philidor Defense,black,,1. e4 e5 2. Nf3 d6
+Philidor Defense,black,Exchange Variation,1. e4 e5 2. Nf3 d6 3. d4 exd4
+Philidor Defense,black,Hanham Variation,1. e4 e5 2. Nf3 d6 3. d4 Nd7
+Philidor Defense,black,Nimzowitsch Variation,1. e4 e5 2. Nf3 d6 3. d4 Nf6
+King's Indian Defense,black,,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7
+King's Indian Defense,black,Bayonet Attack,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. b4
+King's Indian Defense,black,Averbakh Variation,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Be2 O-O 6. Bg5
+King's Indian Defense,black,Sämisch Variation,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f3
+King's Indian Defense,black,Classical System,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. O-O Nc6 8. d5 Ne7 9. Ne1
+King's Indian Defense,black,Fianchetto Variation,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. Nf3 O-O 5. g3 d6 6. Bg2 Nc6 7. O-O
+King's Indian Defense,black,Four Pawns Attack,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. f4
+King's Indian Defense,black,Petrosian Variation,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. d5
+King's Indian Defense,black,Makogonov Variation,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. h3
+King's Indian Defense,black,Gligoric-Taimanov System,1. d4 Nf6 2. c4 g6 3. Nc3 Bg7 4. e4 d6 5. Nf3 O-O 6. Be2 e5 7. Be3
+Grünfeld Defense,black,,1. d4 Nf6 2. c4 g6 3. Nc3 d5
+Grünfeld Defense,black,Exchange Variation,1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. cxd5 Nxd5
+Grünfeld Defense,black,Russian Variation,1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Qb3
+Grünfeld Defense,black,Brinckmann Attack,1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Bf4
+Grünfeld Defense,black,Petrosian System,1. d4 Nf6 2. c4 g6 3. Nc3 d5 4. Nf3 Bg7 5. Bg5
+Nimzo-Indian Defense,black,,1. d4 Nf6 2. c4 e6 3. Nc3 Bb4
+Nimzo-Indian Defense,black,Normal Line,1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. e3
+Nimzo-Indian Defense,black,Classical Variation,1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Qc2
+Nimzo-Indian Defense,black,Three Knights Variation,1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Nf3
+Nimzo-Indian Defense,black,Leningrad Variation,1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. Bg5
+Nimzo-Indian Defense,black,Romanishin Variation,1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. g3
+Nimzo-Indian Defense,black,Kmoch Variation,1. d4 Nf6 2. c4 e6 3. Nc3 Bb4 4. f3
+Semi-Slav Defense,black,,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6
+Semi-Slav Defense,black,Meran Variation,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Bd3 dxc4 7. Bxc4 b5
+Semi-Slav Defense,black,Botvinnik Variation,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 dxc4 6. e4
+Semi-Slav Defense,black,Stoltz Variation,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. e3 Nbd7 6. Qc2
+Semi-Slav Defense,black,Anti-Moscow Gambit,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 e6 5. Bg5 h6 6. Bh4
+Slav Defense,black,,1. d4 d5 2. c4 c6
+Slav Defense,black,Two Knights Attack,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 dxc4
+Slav Defense,black,Exchange Variation,1. d4 d5 2. c4 c6 3. cxd5
+Slav Defense,black,Chameleon Variation,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 a6
+Slav Defense,black,Modern Line,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Qb3
+Slav Defense,black,Quiet Variation,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. e3
+Slav Defense,black,Schlechter Variation,1. d4 d5 2. c4 c6 3. Nf3 Nf6 4. Nc3 g6
+Benoni Defense,black,,1. d4 Nf6 2. c4 c5
+Benoni Defense,black,Benko Gambit,1. d4 Nf6 2. c4 c5 3. d5 b5
+Benoni Defense,black,Old Benoni,1. d4 c5
+Benoni Defense,black,Modern Variation,1. d4 Nf6 2. c4 c5 3. d5 e6
+Benoni Defense,black,Czech Benoni Defense,1. d4 Nf6 2. c4 c5 3. d5 e5
+Benoni Defense,black,Snake Variation,1. d4 Nf6 2. c4 c5 3. d5 e6 4. Nc3 exd5 5. cxd5 Bd6
+Queen's Gambit Declined,black,,1. d4 d5 2. c4 e6
+Queen's Gambit Declined,black,Charousek Variation,1. d4 d5 2. c4 e6 3. Nc3 Be7
+Queen's Gambit Declined,black,Tarrasch Defense,1. d4 d5 2. c4 e6 3. Nc3 c5
+Queen's Gambit Declined,black,Exchange Variation,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. cxd5
+Queen's Gambit Declined,black,Orthodox Defense,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 Nbd7
+Queen's Gambit Declined,black,Ragozin Defense,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Bb4
+Queen's Gambit Declined,black,Tartakower Defense,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 b6
+Queen's Gambit Declined,black,Lasker Defense,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 O-O 6. Nf3 h6 7. Bh4 Ne4
+Queen's Gambit Declined,black,Semi-Tarrasch Defense,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 c5
+Queen's Gambit Declined,black,Harrwitz Attack,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. Bf4
+Queen's Gambit Declined,black,Vienna Variation,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 dxc4
+Queen's Gambit Declined,black,Cambridge Springs Defense,1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Bg5 Nbd7 5. e3 c6 6. Nf3 Qa5
+London System,white,,1. d4 d5 2. Nf3 Nf6 3. Bf4
+Queen's Indian Defense,black,,1. d4 Nf6 2. c4 e6 3. Nf3 b6
+Queen's Indian Defense,black,Nimzowitsch Variation,1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Ba6
+Queen's Indian Defense,black,Fianchetto Traditional,1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. g3 Bb7
+Queen's Indian Defense,black,Kasparov Variation,1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Nc3
+Queen's Indian Defense,black,Petrosian Variation,1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. a3
+Queen's Indian Defense,black,Miles Variation,1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. Bf4
+Queen's Indian Defense,black,Spassky System,1. d4 Nf6 2. c4 e6 3. Nf3 b6 4. e3
+Dutch Defense,black,,1. d4 f5
+Dutch Defense,black,Stonewall Variation,1. d4 f5 2. c4 Nf6 3. g3 e6 4. Bg2 Be7 5. Nf3 O-O 6. O-O d5
+Dutch Defense,black,Classical Variation,1. d4 f5 2. c4 e6
+Dutch Defense,black,Leningrad Variation,1. d4 f5 2. c4 Nf6 3. g3 g6
+Dutch Defense,black,Krejcik Gambit,1. d4 f5 2. g4
+Dutch Defense,black,Staunton Gambit,1. d4 f5 2. e4
+Dutch Defense,black,Hopton Attack,1. d4 f5 2. Bg5
+Dutch Defense,black,Raphael Variation,1. d4 f5 2. Nc3
+Queen's Gambit Accepted,black,,1. d4 d5 2. c4 dxc4
+Queen's Gambit Accepted,black,Saduleto Variation,1. d4 d5 2. c4 dxc4 3. e4
+Queen's Gambit Accepted,black,Old Variation,1. d4 d5 2. c4 dxc4 3. e3
+Queen's Gambit Accepted,black,Normal Variation,1. d4 d5 2. c4 dxc4 3. Nf3
+Catalan,white,,1. d4 Nf6 2. c4 e6 3. g3
+Catalan,white,Open Defense,1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4
+Catalan,white,Classical Line,1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Nf3 Be7
+Catalan,white,Modern Sharp Variation,1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 dxc4 5. Nf3 Nc6 6. Qa4 Bb4+
+Catalan,white,Closed,1. d4 Nf6 2. c4 e6 3. g3 d5 4. Bg2 Be7
+Trompowsky Attack,white,,1. d4 Nf6 2. Bg5
+Trompowsky Attack,white,Classical Defense,1. d4 Nf6 2. Bg5 e6
+Trompowsky Attack,white,Poisoned Pawn Variation,1. d4 Nf6 2. Bg5 c5 3. d5 Qb6 4. Nc3
+Bogo-Indian Defense,black,,1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+
+Bogo-Indian Defense,black,Exchange Variation,1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Bxd2+
+Bogo-Indian Defense,black,Vitolins Variation,1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 c5
+Bogo-Indian Defense,black,Wade-Smyslov Variation,1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 a5
+Bogo-Indian Defense,black,Nimzowitsch Variation,1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Bd2 Qe7
+Bogo-Indian Defense,black,Grünfeld Variation,1. d4 Nf6 2. c4 e6 3. Nf3 Bb4+ 4. Nbd2
+Chigorin Defense,black,,1. d4 d5 2. c4 Nc6
+Chigorin Defense,black,Main Line,1. d4 d5 2. c4 Nc6 3. Nf3 Bg4
+Chigorin Defense,black,Exchange Variation,1. d4 d5 2. c4 Nc6 3. cxd5 Qxd5
+Chigorin Defense,black,Modern Gambit,1. d4 d5 2. c4 Nc6 3. Nc3 dxc4 4. Nf3 Nf6
+Jobava London System,white,,1. d4 d5 2. Nc3 Nf6 3. Bf4
