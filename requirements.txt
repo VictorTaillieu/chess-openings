@@ -1,0 +1,5 @@
+chess
+dash
+pandas
+requests
+tqdm
