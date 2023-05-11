@@ -1,3 +1,4 @@
+cairosvg
 chess
 dash
 pandas

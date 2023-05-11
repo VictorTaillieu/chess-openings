@@ -17,3 +17,18 @@ def pgn_to_uci(pgn):
         uci_moves.append(uci_move)
 
     return ",".join(uci_moves)
+
+
+def pgn_to_board(pgn):
+    san_moves = re.sub(r"\d+\.\s", "", pgn)
+
+    board = chess.Board()
+
+    if san_moves:
+        for san_move in san_moves.split(" "):
+            board.push_san(san_move)
+
+    svg = chess.svg.board(board)
+    png = svg2png(svg)
+
+    return f"data:image/png;base64,{base64.b64encode(png).decode()}"
