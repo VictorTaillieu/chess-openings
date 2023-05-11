@@ -40,6 +40,14 @@ app.layout = html.Div([
         ],
         value="total_masters"
     ),
+    dcc.Dropdown(
+        id="selector",
+        options=[
+            {"label": op, "value": op} for op in df.name.unique()
+        ],
+        value=df.name.unique(),
+        multi=True
+    ),
     dash_table.DataTable(
         id="table",
         fixed_rows={"headers": True},
@@ -53,6 +61,7 @@ app.layout = html.Div([
     Input("open-var", "value"),
     Input("color", "value"),
     Input("sort", "value"),
+    Input("selector", "value")
 )
 def update_table(open_var, color, sort, selector):
     dff = df.copy()
@@ -66,6 +75,9 @@ def update_table(open_var, color, sort, selector):
 
     # Filter colors
     dff = dff[dff.color.isin(color)]
+
+    # Filter openings
+    dff = dff[dff.name.isin(selector)]
 
     # Sort
     dff.sort_values(sort, ascending=False, inplace=True)
