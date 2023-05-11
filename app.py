@@ -53,7 +53,7 @@ app.layout = html.Div([
         fixed_rows={"headers": True},
         style_table={"height": 400}
     )
-])
+], style={"width": "45%", "padding": "0px 20px 20px 20px"})
 
 
 @app.callback(
