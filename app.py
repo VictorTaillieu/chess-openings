@@ -76,8 +76,14 @@ app.layout = html.Div([
     html.Div([
         dash_table.DataTable(
             id="table",
-            fixed_rows={"headers": True},
-            style_table={"height": 400}
+            fixed_rows={"headers": True}
+        )
+    ], style={"width": "45%", "padding": "20px", "display": "inline-block", "vertical-align": "top"}),
+
+    html.Div([
+        html.Img(
+            id="board",
+            height=500
         )
     ], style={"width": "45%", "padding": "20px", "display": "inline-block", "vertical-align": "top"})
 ])
