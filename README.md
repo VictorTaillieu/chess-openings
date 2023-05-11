@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is an interactive web application that allows users to explore statistics about popular chess openings. The data is obtained from the [Lichess API](https://lichess.org/api). The application is written in [Python](https://www.python.org/) using the [Dash](https://dash.plotly.com/) framework.
+This project is an interactive web application that allows users to explore statistics about popular chess openings presented on [Hanging Pawns](https://www.youtube.com/@HangingPawns/playlists) YouTube channel. The data is obtained from the [Lichess API](https://lichess.org/api). The application is written in [Python](https://www.python.org/) using the [Dash](https://dash.plotly.com/) framework.
 
 ## Usage
 
