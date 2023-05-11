@@ -9,51 +9,78 @@ app = Dash(__name__)
 
 # Define app layout
 app.layout = html.Div([
-    dcc.Dropdown(
-        id="open-var",
-        options=[
-            {"label": "Opening", "value": "open"},
-            {"label": "Variation", "value": "var"}
-        ],
-        value="open"
-    ),
-    dcc.Dropdown(
-        id="color",
-        options=[
-            {"label": "White", "value": "white"},
-            {"label": "Black", "value": "black"}
-        ],
-        value=["white", "black"],
-        multi=True
-    ),
-    dcc.Dropdown(
-        id='sort',
-        options=[
-            {"label": "Number of masters games played", "value": "total_masters"},
-            {"label": "Number of lichess games played", "value": "total_lichess"},
-            {"label": "Masters white success rate", "value": "white_masters"},
-            {"label": "Masters black success rate", "value": "black_masters"},
-            {"label": "Masters draw rate", "value": "draws_masters"},
-            {"label": "Lichess white success rate", "value": "white_lichess"},
-            {"label": "Lichess black success rate", "value": "black_lichess"},
-            {"label": "Lichess draw rate", "value": "draws_lichess"}
-        ],
-        value="total_masters"
-    ),
-    dcc.Dropdown(
-        id="selector",
-        options=[
-            {"label": op, "value": op} for op in df.name.unique()
-        ],
-        value=df.name.unique(),
-        multi=True
-    ),
-    dash_table.DataTable(
-        id="table",
-        fixed_rows={"headers": True},
-        style_table={"height": 400}
-    )
-], style={"width": "45%", "padding": "0px 20px 20px 20px"})
+
+    html.Div([
+        dcc.Dropdown(
+            id="open-var",
+            options=[
+                {"label": "Opening", "value": "open"},
+                {"label": "Variation", "value": "var"}
+            ],
+            value="open"
+        ),
+        html.H2(
+            "Color",
+            style={
+                "color": "#516D90"
+            }
+        ),
+        dcc.Dropdown(
+            id="color",
+            options=[
+                {"label": "White", "value": "white"},
+                {"label": "Black", "value": "black"}
+            ],
+            value=["white", "black"],
+            multi=True
+        ),
+        html.H2(
+            "Sort by",
+            style={
+                "color": "#516D90"
+            }
+        ),
+        dcc.Dropdown(
+            id='sort',
+            options=[
+                {"label": "Number of masters games played", "value": "total_masters"},
+                {"label": "Number of lichess games played", "value": "total_lichess"},
+                {"label": "Masters white success rate", "value": "white_masters"},
+                {"label": "Masters black success rate", "value": "black_masters"},
+                {"label": "Masters draw rate", "value": "draws_masters"},
+                {"label": "Lichess white success rate", "value": "white_lichess"},
+                {"label": "Lichess black success rate", "value": "black_lichess"},
+                {"label": "Lichess draw rate", "value": "draws_lichess"}
+            ],
+            value="total_masters"
+        ),
+    ], style={"width": "45%", "padding": "20px", "display": "inline-block", "vertical-align": "top"}),
+
+    html.Div([
+        html.H2(
+            "Select openings",
+            style={
+                "color": "#516D90"
+            }
+        ),
+        dcc.Dropdown(
+            id="selector",
+            options=[
+                {"label": op, "value": op} for op in df.name.unique()
+            ],
+            value=df.name.unique(),
+            multi=True
+        ),
+    ], style={"width": "45%", "padding": "20px", "display": "inline-block", "vertical-align": "top"}),
+
+    html.Div([
+        dash_table.DataTable(
+            id="table",
+            fixed_rows={"headers": True},
+            style_table={"height": 400}
+        )
+    ], style={"width": "45%", "padding": "20px", "display": "inline-block", "vertical-align": "top"})
+])
 
 
 @app.callback(
