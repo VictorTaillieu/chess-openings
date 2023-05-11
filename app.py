@@ -65,6 +65,7 @@ app.layout = html.Div([
 )
 def update_table(open_var, color, sort, selector):
     dff = df.copy()
+    columns = [col for col in dff.columns if col not in ["name", "color", "variation", sort]]
 
     # Filter openings or variations
     if open_var == "open":
@@ -81,6 +82,8 @@ def update_table(open_var, color, sort, selector):
 
     # Sort
     dff.sort_values(sort, ascending=False, inplace=True)
+
+    dff.drop(columns, axis=1, inplace=True)
 
     return dff.to_dict("records")
 
