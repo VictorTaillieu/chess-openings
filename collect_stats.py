@@ -1,11 +1,11 @@
-import re
 import time
 from pathlib import Path
 
-import chess
 import pandas as pd
 import requests
 from tqdm import tqdm
+
+from chess_utils import pgn_to_uci
 
 
 def results_to_prop(white, draws, black):
@@ -15,19 +15,6 @@ def results_to_prop(white, draws, black):
     black_prop = round(black / total * 100)
 
     return white_prop, draws_prop, black_prop, total
-
-
-def pgn_to_uci(pgn):
-    san_moves = re.sub(r"\d+\.\s", "", pgn)
-
-    board = chess.Board()
-
-    uci_moves = []
-    for san_move in san_moves.split(" "):
-        uci_move = board.push_san(san_move).uci()
-        uci_moves.append(uci_move)
-
-    return ",".join(uci_moves)
 
 
 root = "https://explorer.lichess.ovh/"
