@@ -2,6 +2,8 @@ import pandas as pd
 from dash import Dash, dash_table, dcc, html
 from dash.dependencies import Input, Output
 
+from chess_utils import pgn_to_board
+
 # Load data
 df = pd.read_csv("data/openings_stats.csv")
 
@@ -119,6 +121,24 @@ def update_table(open_var, color, sort, selector):
     dff.drop(columns, axis=1, inplace=True)
 
     return dff.to_dict("records")
+
+
+@app.callback(
+    Output("board", "src"),
+    Input("table", "data"),
+    Input("table", "active_cell"),
+    Input("open-var", "value")
+)
+def update_board(table, active_cell, open_var):
+    if active_cell:
+        opening = table[active_cell["row"]]["name"]
+        if open_var == "open":
+            pgn = df[(df.name == opening) & (df.variation.isna())].iloc[0]["pgn"]
+        else:
+            variation = table[active_cell["row"]]["variation"]
+            pgn = df[(df.name == opening) & (df.variation == variation)].iloc[0]["pgn"]
+
+    return pgn_to_board(pgn) if active_cell else pgn_to_board("")
 
 
 if __name__ == "__main__":
