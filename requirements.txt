@@ -1,6 +1,7 @@
 cairosvg
 chess
 dash
+gunicorn
 pandas
 requests
 tqdm
