@@ -9,6 +9,9 @@ df = pd.read_csv("data/openings_stats.csv")
 
 app = Dash(__name__)
 
+# Set server variable for deployment
+server = app.server
+
 # Define app layout
 app.layout = html.Div([
 
